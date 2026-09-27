@@ -72,6 +72,17 @@ window.CONTENT = {
       links: {}
     },
     {
+      title: "Setter Sandbox",
+      image: "assets/setter-sandbox.png",
+      imageAlt: "Screenshot of the Setter Sandbox demo: a chat with an AI setter next to a live agent view",
+      summary: "A live demo of an AI appointment setter for a fictional running coach. You play the lead while a live Agent view shows the stage, the lead details it extracts and a lead score, until the agent books a call.",
+      tags: ["JavaScript", "Cloudflare Workers AI", "LLM", "Structured output"],
+      links: {
+        demo: "https://sandbox.balanconstantin.com",
+        github: "https://github.com/tweekmd/setter-sandbox"
+      }
+    },
+    {
       title: "Mochi",
       image: "assets/mochi.svg",
       imageAlt: "Illustration of a web app with a sign in form and a profile page",
@@ -82,11 +93,11 @@ window.CONTENT = {
   ],
 
   // Number of empty "Coming soon" cards shown after the projects. Set to 0 to hide them.
-  comingSoon: 3,
+  comingSoon: 2,
 
   skills: [
     { group: "Languages", items: ["JavaScript", "Python", "Java", "SQL", "C++"] },
-    { group: "Tools and platforms", items: ["Node.js", "Vue.js", "PostgreSQL", "Linux", "Git", "Raspberry Pi"] },
+    { group: "Tools and platforms", items: ["Node.js", "Vue.js", "PostgreSQL", "Linux", "Git", "Cloudflare", "Raspberry Pi"] },
     { group: "Practices", items: ["AI agents", "Automation", "REST APIs", "Testing", "Scrum"] }
   ],
 
